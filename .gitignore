@@ -1,0 +1,10 @@
+# Binaries
+**/bin/
+bin-int/
+
+# Visual Studio Specifics
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
