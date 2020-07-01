@@ -9,3 +9,8 @@ public:
 
 	~Sandbox() {}
 };
+
+
+Surreal::Application* Surreal::CreateApplication() {
+	return new Sandbox();
+}

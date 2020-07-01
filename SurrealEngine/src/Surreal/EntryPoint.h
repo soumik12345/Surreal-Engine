@@ -6,9 +6,10 @@
 extern Surreal::Application* Surreal::CreateApplication();
 
 int main(int argc, char** argv) {
-
-	sandbox->Run();
-	delete sandbox;
+	printf("It's Surreal!!!");
+	auto app = Surreal::CreateApplication();
+	app->Run();
+	delete app;
 
 	return 0;
 }
